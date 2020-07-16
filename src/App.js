@@ -1,25 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Particle from "./components/particles";
+import Orbit from "./components/orbit";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main className="wrapper">
+      <Particle/>
+      <section className="parallax bg1">
+        <div className="header">
+          <div className="header-text"><h1>Matthew MacRae-Bovell</h1></div>
+          <Orbit/>
+        </div>
+      </section>
+      <section className="section static">
+        <h1>Experience</h1>
+      </section>
+      <section className="section parallax bg2">
+        <h1>Projects</h1>
+      </section>
+      <section className="section static">
+        <h1>Copyright</h1>
+      </section>
+  </main>
   );
 }
 

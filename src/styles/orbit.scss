@@ -1,0 +1,361 @@
+$orbitItemSize: 1.6em;
+$map: (ring-0: 11, ring-1: 12, ring-2: 6.5, ring-3: 8);
+$lastRing: 3;
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+.orbit {
+  //background: darken(#ffffff, 20%);
+  //background: darken(#ffffff, 20%);
+  //float: left;
+  //width: 50vw;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+  //height :100vh;
+  //display:flex;
+  //align-self: center;
+  //justify-content: center;
+  //height:100vh;
+  //min-width: 100vw;
+  //min-height: 100vh;
+}
+
+.orbit-icon {
+  width: $orbitItemSize;
+  height: $orbitItemSize;
+  line-height: $orbitItemSize;
+  font-size: 1.2em;
+  border-radius: 50%;
+  background: #ccc;
+  color: #fff;
+  text-align: center;
+  display: block;
+}
+
+.orbit-wrap {
+  //height: 40em;
+  list-style: none;
+  font-size: 1.3em;
+  
+  > li {
+    position: absolute;
+    //margin-top: 2vh;
+    //left: 50%;
+    //top: 50%;
+    transform: translate(-50%, -50%);
+    
+    &:hover {
+      ul {
+        border-width: 2px;
+        //border-color: rgb(198, 223, 255);
+
+      }
+      ~ li ul {
+        //border-color: rgba(255, 255, 255, 0.2);
+        li {
+          //opacity: 0.4;          
+        }
+      }
+    }
+    
+  }
+}
+
+ul[class^=ring] {
+  @extend %ring;
+  transition: all 300ms ease-in-out;
+  li {
+    @extend %orbiting-object;
+    transition: all 300ms ease-in-out;
+  }
+}
+
+@mixin orbit-item($numItems, $numRing) {
+  @for $s from 1 through $numItems {  
+    // Spread items over the ring
+    $deg: 380deg / $numItems;
+    
+    .ring-#{$numRing} > *:nth-of-type(#{$s}) {
+      //PUTS ITEMS ON RINGS
+      transform: rotate($s * $deg) translate(12.5em - ($numRing * 2.5)) rotate(-$s * $deg);
+    }
+  }
+}
+
+// Render rings
+@for $i from 0 through $lastRing {  
+  .ring-#{$i} {
+    // decrease each ring in size
+    width: 25em - ($i * 5);
+    height: 25em - ($i * 5);
+    //MAKES THEM TURN
+    animation: clockwiseRotate 35s - ($i * 5) linear infinite;
+    
+    i {
+      animation: counterClockwiseRotate 35s - ($i * 5) linear infinite;
+    }
+
+    .m-icon{
+       animation: counterClockwiseRotate 35s - ($i * 5) linear infinite;
+    }
+  }
+  
+  @include orbit-item(map-get($map, ring-#{$i}), $i);
+}
+
+
+%ring {
+  border: solid 2px #1E61FF;
+  position: relative;
+  padding: 0;
+  border-radius: 50%;
+  list-style: none;
+  box-sizing: content-box;
+}
+
+%orbiting-object {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: $orbitItemSize;
+  height: $orbitItemSize;
+  margin: -$orbitItemSize / 2;
+}
+
+/*
+  center;
+*/
+.orbit-center {
+  z-index: 5;
+  font-size: 2em;
+  width: 5.1em;
+  height: 5.1em;
+  line-height: 1.8em;
+  text-align: center;
+  background: white;
+  border-radius: 50%;
+  border: 2px solid #1E61FF!important;
+  box-shadow: 0 0 2px #1e7bf4;
+  background-image: url(https://i.pinimg.com/originals/85/7e/19/857e1977ee87256455b9b597a1529522.jpg);
+    background-size: contain;
+    background-size: cover;
+    z-index: 0;
+
+  &:hover .orbit-center__icon {
+    transform: rotateZ(0deg); //MAKES IT SPIN
+  }
+}
+.orbit-center__icon {
+  transform: rotateZ(-360deg);
+  transition: all 500ms ease-in-out;
+}
+.orbit-wrap > li.orbit-center:hover ~ li > ul {
+  //MAKES RINGS SMALL
+  //width: 0;
+  //height: 0;
+  * {
+    //transform: translate(0, 0); // MAKES ICONS GO IN
+  }
+}
+
+/* 
+animations 
+*/
+@keyframes clockwiseRotate {
+    from {
+        transform: rotate(0deg)
+    }
+    to {
+        transform: rotate(360deg)
+    }
+}
+
+@keyframes counterClockwiseRotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(-360deg);
+  }
+}
+
+/* 
+icons 
+*/
+$icons : (
+  ('heart-o', #b71c1c, white),
+  ('coffee', #4CAF50, #CDDC39),
+  ('safari', white, darkslateblue),
+  ('firefox', #1565c0, #ff8f00),
+  ('chrome', #fbc02d, #ef6c00),
+  ('edge', #03a9f4, white),
+  ('android', snow, limegreen),
+  ('apple', #444, white),
+  ('linux', white, #222),
+  ('windows', white, #03a9f4),
+  ('terminal', #222, #fff),
+  ('html5', white, #e65100),
+  ('css3', white, #2196f3),
+  ('git', #222, white),
+  ('free-code-camp', green, white),
+  ('meetup', red, white),
+  ('podcast', red, white),
+  ('codepen', #333, white)
+);
+
+@each $icon in $icons {
+  .fa-#{nth($icon, 1)} {
+    background: nth($icon, 2);
+    color: nth($icon, 3);
+  }
+}
+
+.m-icon{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    background-size: cover;
+    border: 1px solid #1E61FF!important;
+    box-shadow: 0 0 2px #1e7bf4;
+}
+
+.aws-icon{
+    background-image: url('/logos/aws-skill.png');
+    background-color: #FF9900;
+}
+.stripe-icon{
+    background-image: url('/logos/stripe-skill.png');
+    background-color: #764ABC;
+}
+.redux-icon{
+    background-image: url('/logos/redux-skill.png');
+    background-color: #764ABC;
+}
+.aspnet-icon{
+    background-image: url('/logos/aspnet-skill.png');
+    background-color: white;
+}
+.cpp-icon{
+    background-image: url('/logos/cpp-skill.png');
+    background-color: rgb(225, 30, 150);
+}
+.java-icon{
+    background-image: url('/logos/java-skill.png');
+    background-color: rgb(225, 85, 30);
+}
+.ruby-icon{
+    background-image: url('/logos/ruby-skill2.png');
+    background-color: rgb(255, 255, 255);
+}
+.javascript-icon{
+    background-image: url('/logos/javascript.png');
+    background-color: white;
+}
+.webpack-icon{
+    background-image: url('/logos/webpack-skill.png');
+    background-color: white;
+}
+.flask-icon{
+    background-image: url('/logos/flask-skill.png');
+    background-color: white;
+}
+.elixir-icon{
+    background-image: url('/logos/elixir-skill3.png');
+    background-color: rgb(153, 140, 160);
+}
+
+.python-icon{
+    background-image: url('/logos/python-skill.png');
+    background-color: #242424;
+}
+
+.phoenix-icon{
+    background-image: url('/logos/phoenix-skill.png');
+    background-color: #5A3F69;
+}
+
+.azure-icon{
+    background-image: url('/logos/azure-skill.png');
+    background-color: #035BDA;
+}
+
+.golang-icon{
+    background-image: url('/logos/golang-skill2.png');
+    background-color: #00ACD7;
+}
+
+.react-icon{
+    background-image: url('/logos/react-skill2.png');
+    background-color: #282C34;
+}
+
+.rails-icon{
+    background-image: url('/logos/rails-skill.png');
+    background-color: #D20000;
+}
+
+.docker-icon{
+    background-image: url('/logos/docker-skill2.png');
+    background-color: #2496ED;
+}
+
+.elastic-icon{
+    background-image: url('/logos/elastic-skill.png');
+    background-color: white;
+}
+
+.graphql-icon{
+    background-image: url('/logos/graphql-skill.png');
+    background-color: #E535AB;
+}
+
+.nodejs-icon{
+    background-image: url('/logos/nodejs-skill.png');
+    background-color: #46483D;
+}
+
+.deno-icon{
+    background-image: url('/logos/deno-skill.png');
+    background-color: white;
+}
+
+.postgres-icon{
+    background-image: url('/logos/postgres-skill.png');
+    background-color: #ffffff;
+}
+
+.redis-icon{
+    background-image: url('/logos/redis-skill2.png');
+    background-color: #ffffff;
+}
+
+.net-icon{
+    background-image: url('/logos/net-skill.png');
+    background-color: #9f9fa0;
+}
+
+.mongo-icon{
+    background-image: url('/logos/mongo-skill.png');
+    background-color: white;
+}
+
+.kubernetes-icon{
+    background-image: url('/logos/kubernetes-skill.png');
+    background-color: #9f9fa0;
+}
+
+.jenkins-icon{
+    background-image: url('/logos/jenkins.png');
+    background-color: white;
+}
+
+
+
