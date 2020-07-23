@@ -22,6 +22,38 @@ body,html{
   color: black
 }
 
+
+.section-experience {
+  position: relative;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black
+}
+
+.section-about {
+  position: relative;
+  max-height: fit-content;
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  background-color: #F7F7F7;
+}
+
+.section-footer {
+  position: relative;
+  height: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #1f1f1f !important;
+  color:#7e7a7a;
+  border-bottom: 2px solid #1f1f1f !important;
+}
+
 .parallax::after {
   content: " ";
   position: absolute;
@@ -53,5 +85,5 @@ body,html{
   height:200vh;
   position:fixed; 
   z-index:0;
-  top:0em;
+  //top:0em;
 }
