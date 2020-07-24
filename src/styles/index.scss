@@ -6,6 +6,22 @@ body,html{
 
 }
 
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: none; /* no underline */
+}
+
+a:visited {
+  color: rgb(0, 0, 0);
+  text-decoration: none; /* no underline */
+}
+
+a:hover {
+  color: rgb(0, 0, 0);
+  text-decoration: none; /* no underline */
+}
+
+
 .wrapper {
   height: 100vh;
   overflow-x: hidden;

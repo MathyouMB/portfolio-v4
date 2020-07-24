@@ -2,5 +2,25 @@
     display:flex;
     justify-content:center;
     align-items:center;
+    color:rgb(156, 156, 156);
+    flex-direction: column;
+}
+
+.footer-links{
+    display:flex;
+    width:100%;
+    //margin-left:1em;
     color:white;
+    margin:auto;
+    margin-bottom:1.3em;
+}
+
+.footer-link{
+    margin:auto;
+    font-size: 2.3em;
+    
+
+    a{
+        color:rgb(156, 156, 156) !important;
+    }
 }
