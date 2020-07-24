@@ -4,7 +4,7 @@
     align-items: center;
     height:fit-content;
     width:75%;
-    margin:3.5em;
+    margin:1.5em;
     color: #2f2f3f;
     color: #616161;
     line-height: 1.2;
@@ -60,6 +60,7 @@
       background-size: 100% 88%;
       color:black;
     }
+
   }
 
 .underline--summer {
@@ -101,7 +102,7 @@
     padding-bottom: 0.5em;
     border-bottom: 2px solid #82828254;
     color: #16161d;
-    font-weight: 500;
+    font-weight: bold;
     display:flex;
     justify-content: space-between;
     text-align:center;
@@ -160,6 +161,7 @@
     background-position: 0 88%;
     padding-bottom: 0.4em;
     padding-top: 0.5em;
+    font-weight: 400;
     transition: background-size 0.15s ease-in;
     &:hover {
       background-size: 100% 88%;
@@ -174,6 +176,7 @@
     background-position: 0 88%;
     padding-bottom: 0.4em;
     padding-top: 0.5em;
+    font-weight: 400;
     transition: background-size 0.15s ease-in;
     &:hover {
       background-size: 100% 88%;
@@ -188,6 +191,7 @@
     background-position: 0 88%;
     padding-bottom: 0.4em;
     padding-top: 0.5em;
+    font-weight: 400;
     transition: background-size 0.15s ease-in;
     &:hover {
       background-size: 100% 88%;
@@ -202,6 +206,7 @@
     background-position: 0 88%;
     padding-bottom: 0.4em;
     padding-top: 0.5em;
+    font-weight: 400;
     transition: background-size 0.15s ease-in;
     &:hover {
       background-size: 100% 88%;

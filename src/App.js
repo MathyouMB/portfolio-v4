@@ -18,7 +18,15 @@ function App() {
         <About/>
       </section>
       <section className="section-experience parallax bg2">
-        {/*<Experience/>*/}
+        <Timeline/>
+      </section>
+      <section className="section static">
+        <Orbit/>
+      </section>
+      <section className="section parallax bg2">
+        <h1>Projects</h1>
+      </section>
+      {/*<section className="section-experience parallax bg2">
         <Particle/>
         <Timeline/>
       </section>
@@ -28,6 +36,7 @@ function App() {
       <section className="section parallax bg2">
         <h1>Projects</h1>
       </section>
+  */}
       <section className="section-footer static">
         <Footer/>
       </section>

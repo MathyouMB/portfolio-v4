@@ -23,8 +23,6 @@ function About() {
            <div className="about-description">
                <div>I'm a <b>Carleton University</b> computer science student interested in web development, distributed systems, and cloud infrastructure. </div>
                <br></br>
-               <div> I have a passion for learning about new technology and have worked for both large and startup tech companies.</div>
-               <br></br>
                <div>I'm currently searching for <b>Winter 2021</b> {/*<span className="hvr-float" role="img">❄️</span>*/} and <b>Summer 2021</b> {/*<span className="hvr-float" role="img">🌻</span>*/} internship oppurtunities.</div>
            </div>
            <div className="about-tags">
