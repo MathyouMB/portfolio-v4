@@ -38,11 +38,29 @@ a:hover {
   color: black
 }
 
+.section-games {
+  position: relative;
+  min-height: 100vh;
+  max-height: fit-content;
+  color: black
+}
+
 
 .section-experience {
   position: relative;
   height: fit-content;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: black
+}
+
+.section-projects {
+  position: relative;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   color: black

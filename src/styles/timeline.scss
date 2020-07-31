@@ -22,6 +22,15 @@
     width:17em;
 }
 
+@media only screen and (min-width: 769px) {
+    .company-logo-inner{
+        display:none;
+    }
+
+    .company-logo-outer{
+        display:block;
+    }
+}
 @media only screen and (max-width: 768px) {
     .timeline{
         width:90%;
@@ -35,6 +44,15 @@
         width: 17em;
         margin-bottom:1em !important;
     }
+
+    .company-logo-inner{
+        display:block;
+    }
+
+    .company-logo-outer{
+        display:none;
+    }
+
     .company-logo2{
         width: 15em;
         margin-bottom:1em !important;

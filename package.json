@@ -15,6 +15,7 @@
     "react-dom": "^16.13.1",
     "react-particles-js": "^3.2.1",
     "react-scripts": "3.4.1",
+    "react-simple-image-slider": "^1.0.4",
     "react-timeline-scribble": "^1.0.14",
     "react-vertical-timeline-component": "^3.0.2"
   },

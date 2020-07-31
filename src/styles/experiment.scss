@@ -1,0 +1,55 @@
+.experiments{
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    width:80%;
+
+}
+
+.experiment{
+    margin-top:1.5em;
+    display: grid;
+    grid-template-columns: 0.5fr 3fr 2fr;
+    //justify-content: space-between;
+    width:100%;
+    border-bottom: 2px solid #00000054;
+    padding-bottom:1em;
+
+    .experience-logos{
+        margin-top:0em !important;
+    }
+    align-items: center;
+}
+
+.experiment-header{
+    display:flex;
+    flex-direction: column;
+    //width:50%;
+    padding-left:2em;
+    padding-right:2em;
+    //justify-content: space-between;
+}
+
+.experiment-date{
+    color: white;
+    background-color: black;
+    box-shadow: inset 0 0 0 0em #ef795a;
+    display: inline-block;
+    margin-bottom: 0.5em;
+    width:fit-content;
+    height:fit-content;
+    //width:8em;
+    padding: 0.25em 1em 0.2em 1em;
+    text-align: center;
+}
+
+.experiment-name{
+    color: black;
+    box-shadow: inset 0 0 0 0em #ef795a;
+    display: inline-block;
+    margin-bottom: 0.5em;
+    font-weight: 600;
+    padding: 0.25em 1em 0.2em 0em;
+}
