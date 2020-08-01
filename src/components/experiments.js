@@ -32,6 +32,7 @@ function Experiments() {
             <div><img className="experience-logo" src="./logos/elixir.png"></img></div>
             <div><img className="experience-logo" src="./logos/phoenix.png"></img></div>
             <div><img className="experience-logo" src="./logos/graphql.png"></img></div>
+            <div><img className="experience-logo" src="./logos/absinthe.png"></img></div>
             <div><img className="experience-logo" src="./logos/postgres.png"></img></div>
             <div><img className="experience-logo" src="./logos/docker.png"></img></div>
           </div>  
@@ -168,6 +169,7 @@ function Experiments() {
             </div>
           <div className="experience-logos">
             <div><img className="experience-logo" src="./logos/c.png"></img></div>
+            <div><img className="experience-logo" src="./logos/net-skill.png"></img></div>
             <div><img className="experience-logo" src="./logos/flash.png"></img></div>
             <div><img className="experience-logo" src="./logos/redis.png"></img></div>
             <div><img className="experience-logo" src="./logos/mysql.png"></img></div>
