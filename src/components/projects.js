@@ -27,13 +27,13 @@ const project3 = [
             <label className="work-icon"></label>
             <div className="work-container">
                 <div className="work-body">
-                    <p className="work-date">March - April 2019</p>
+                    <p className="work-date">March 2020 - April 2020</p>
                     <h3>Bookstore E-Commerce Platform</h3>
                     <h4>Web Application</h4>
                     <div className="work-description">
                         <div className="experience-sections">
                         <div>
-                        <div className="experience-description">A Dockerized and Kubernetes configured Platform for selling books online built with Golang, React, and Postgres. This is my final project for COMP3005 Database Management Systems.</div>
+                        <div className="experience-description">A Dockerized and Kubernetes configured Platform for selling books. This is my final project for COMP3005: Database Management Systems.</div>
                         <br></br>
                         <div className="experience-logos">
                           <div><img className="experience-logo" src="./logos/javascript.png"></img></div>
@@ -67,13 +67,13 @@ const project3 = [
             <label className="work-icon"></label>
             <div className="work-container">
             <div className="work-body">
-                <p className="work-date">May 2020 - August 2020</p>
+                <p className="work-date">April 2020 - Present</p>
                 <h3>Computer Science Study Center</h3>
                 <h4>Online Learning Platform</h4>
                 <div className="work-description">
                 <div className="experience-sections">
                 <div>
-                <div className="experience-description">Worked with the Platform Team to help build the scalable and performant web services that power Kinaxis' cloud-based Rapid Response platform.</div>
+                <div className="experience-description">Developed a Hybrid Multiplatform app for students to practice questions for Carleton's Discrete Math Course.</div>
                 <br></br>
                 <div className="experience-logos">
                   <div><img className="experience-logo" src="./logos/react.png"></img></div>

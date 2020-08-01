@@ -20,7 +20,7 @@ function Footer() {
                     <a href="mailto:matthewmacraebovell@outlook.ca">{mailIcon}</a>
                 </div>
                 <div className="footer-link hvr-float">
-                <a href="https://drive.google.com/file/d/1fHfytC_4Y0l6_7dyLMvy4GW9ADgSm5Hc/view">{scrollIcon}</a>
+                <a href="https://drive.google.com/file/d/17BXO0uemAjefYHP6bXKdZmKiLD--HekM/view">{scrollIcon}</a>
                 </div>
             </div>
         <div>Copyright © Matthew MacRae-Bovell</div>

@@ -29,7 +29,7 @@ function About() {
            <div className="about-tags">
                <div className="about-tag"><span className="underline--github"><a href="https://github.com/MathyouMB">Github</a></span></div>
                <div className="about-tag"><span className="underline--linkedin"><a href="https://www.linkedin.com/in/matthewmacraebovell/">LinkedIn</a></span></div>
-               <div className="about-tag"><span className="underline--resume"><a href="https://drive.google.com/file/d/1fHfytC_4Y0l6_7dyLMvy4GW9ADgSm5Hc/view">Resume</a></span></div>
+               <div className="about-tag"><span className="underline--resume"><a href="https://drive.google.com/file/d/17BXO0uemAjefYHP6bXKdZmKiLD--HekM/view">Resume</a></span></div>
                <div className="about-tag"><span className="underline--email"><a href="mailto:matthewmacraebovell@outlook.com">Email</a></span></div>
            </div>
            </div>
@@ -45,7 +45,7 @@ function About() {
                     <a href="mailto:matthewmacraebovell@outlook.ca">{mailIcon}</a>
                 </div>
                 <div className="footer-link hvr-float">
-                <a href="https://drive.google.com/file/d/1fHfytC_4Y0l6_7dyLMvy4GW9ADgSm5Hc/view">{scrollIcon}</a>
+                <a href="https://drive.google.com/file/d/17BXO0uemAjefYHP6bXKdZmKiLD--HekM/view">{scrollIcon}</a>
                 </div>
             </div>
             </div>

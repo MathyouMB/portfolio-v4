@@ -77,7 +77,7 @@ function Work() {
                 <div className="work-description">
                 <div className="experience-sections">  
                     <div>
-                    <div className="experience-description">Explorator is an Ottawa based startup that creates affordable software and web applications. As a Junior Web Developer, I've worked on variety of projects and different tech stacks.</div>
+                    <div className="experience-description">Worked on a variety of projects and different tech stacks while making core system and infrastructure design decisions. Explorator is an Ottawa based startup that creates affordable software and web applications.</div>
 
                     <br></br>
                     <div className="experience-logos">
