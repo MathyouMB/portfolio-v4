@@ -23,10 +23,11 @@ const project3 = [
     <div className="work">
         <ul className="work-timeline">
             <li className="work-event">
-            <label className="work-icon" style={{"backgroundColor":"#4365E2"}}></label>
+            <a href="https://github.com/MathyouMB/Bookstore">
+            <label className="work-icon"></label>
             <div className="work-container">
                 <div className="work-body">
-                    <p className="work-date" style={{"backgroundColor":"#4365E2"}}>March - April 2019</p>
+                    <p className="work-date">March - April 2019</p>
                     <h3>Bookstore E-Commerce Platform</h3>
                     <h4>Web Application</h4>
                     <div className="work-description">
@@ -45,19 +46,11 @@ const project3 = [
                         <br></br>
                         <br></br>
                         </div>
-                        <div className="work-slides company-logo-inner" style={{"borderColor":"#4365E2"}}>
-                          <SimpleImageSlider
-                              
-                              width={500}
-                              height={300}
-                              images={project1}
-                              showBullets={false}
-                          />
-                          </div>
+                        <div><img className="company-logo-inner" src="/book.png" style={{"width":"17em","border":"2px solid rgb(165 168 181)", "marginBottom":"2em"}}></img></div>
                         </div>
                     </div>
                 </div>
-                <div className="work-slides company-logo-outer" style={{"borderColor":"#4365E2"}}>
+                <div className="work-slides company-logo-outer" style={{"borderColor":"rgb(165 168 181)"}}>
                           <SimpleImageSlider
                               
                               width={500}
@@ -67,12 +60,14 @@ const project3 = [
                           />
                           </div>
             </div>
+            </a>
             </li>
             <li className="work-event">
-            <label className="work-icon" style={{"backgroundColor":"#ED424F"}}></label>
+            <a href="https://github.com/CarletonComputerScienceStudyCenter/StudyCenter-API">
+            <label className="work-icon"></label>
             <div className="work-container">
             <div className="work-body">
-                <p className="work-date" style={{"backgroundColor":"#ED424F"}}>May 2020 - August 2020</p>
+                <p className="work-date">May 2020 - August 2020</p>
                 <h3>Computer Science Study Center</h3>
                 <h4>Online Learning Platform</h4>
                 <div className="work-description">
@@ -88,22 +83,14 @@ const project3 = [
                   <div><img className="experience-logo" src="./logos/redis.png"></img></div>
                   <div><img className="experience-logo" src="./logos/docker.png"></img></div>
               </div>
-                        <br></br>
+              <br></br>
                         <br></br>
                         </div>
-                        <div className="work-slides company-logo-inner" style={{"borderColor":"#ED424F"}}>
-                          <SimpleImageSlider
-                              
-                              width={500}
-                              height={300}
-                              images={project2}
-                              showBullets={false}
-                          />
-                          </div>
+                        <div><img className="company-logo-inner" src="/study.png" style={{"width":"17em","border":"2px solid rgb(165 168 181)", "marginBottom":"2em"}}></img></div>
                         </div>
                     </div>
                 </div>
-                <div className="work-slides company-logo-outer" style={{"borderColor":"#ED424F"}}>
+                <div className="work-slides company-logo-outer" style={{"borderColor":"rgb(165 168 181)"}}>
                 <SimpleImageSlider
                     
                     width={500}
@@ -113,6 +100,7 @@ const project3 = [
                 />
                 </div>
             </div>
+            </a>
             </li> 
         </ul>
     </div>

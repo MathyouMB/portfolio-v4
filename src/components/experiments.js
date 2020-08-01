@@ -4,6 +4,7 @@ function Experiments() {
 
   return (  
     <div className="experiments">
+     <a href="https://github.com/MathyouMB/pinq-api">
      <div className="experiment">
             <div className="experiment-date">Jul 2020</div>
             <div className="experiment-header">
@@ -19,6 +20,8 @@ function Experiments() {
             <div><img className="experience-logo" src="./logos/docker.png"></img></div>
           </div>  
      </div>
+     </a>
+     <a href="https://github.com/MathyouMB/DungeonsAndDiscords">
      <div className="experiment">
             <div className="experiment-date">Apr 2020</div>
             <div className="experiment-header">
@@ -33,7 +36,8 @@ function Experiments() {
             <div><img className="experience-logo" src="./logos/postgres.png"></img></div>
           </div>  
       </div>
-      <div className="experiment">
+      </a>
+      {/*<div className="experiment">
             <div className="experiment-date">Apr 2020</div>
             <div className="experiment-header">
                 <div className="experiment-name">Web Infrastructure Presentation</div>  
@@ -47,7 +51,8 @@ function Experiments() {
             <div><img className="experience-logo" src="./logos/docker.png"></img></div>
             <div><img className="experience-logo" src="./logos/aws.png"></img></div>
           </div>  
-      </div>
+  </div>*/}
+      <a href="https://docs.google.com/presentation/u/2/d/1UUSTy4kTC6uXZ3zYEC1Z3XH9SZdGhgVedoB4tsOJuE0/edit#slide=id.p">
       <div className="experiment">
             <div className="experiment-date">Jan 2020</div>
             <div className="experiment-header">
@@ -61,6 +66,8 @@ function Experiments() {
             <div><img className="experience-logo" src="./logos/heroku.png"></img></div>
           </div>  
       </div>
+      </a>
+      <a href="https://github.com/MathyouMB/Classify-API">
       <div className="experiment">
             <div className="experiment-date">Dec 2019</div>
             <div className="experiment-header">
@@ -77,6 +84,8 @@ function Experiments() {
             
           </div>  
       </div>
+      </a>
+      <a href="https://github.com/MathyouMB/React-Workshop">
       <div className="experiment">
             <div className="experiment-date">Oct 2019</div>
             <div className="experiment-header">
@@ -89,11 +98,13 @@ function Experiments() {
             <div><img className="experience-logo" src="./logos/sass.png"></img></div>
           </div>  
       </div>
+      </a>
+      <a href="https://github.com/MathyouMB/Portfolio">
       <div className="experiment">
             <div className="experiment-date">Aug 2019</div>
             <div className="experiment-header">
-                <div className="experiment-name">Portfolio V2</div>  
-                <div className="experiment-description">Version two of my portfolio website.</div>
+                <div className="experiment-name">Portfolio 2019</div>  
+                <div className="experiment-description">The 2019 edition of my portfolio website.</div>
             </div>
           <div className="experience-logos">
             <div><img className="experience-logo" src="./logos/react.png"></img></div>
@@ -101,6 +112,8 @@ function Experiments() {
             <div><img className="experience-logo" src="./logos/sass.png"></img></div>
           </div>  
       </div>
+      </a>
+      <a href="https://github.com/MathyouMB/StackSearch">
       <div className="experiment">
             <div className="experiment-date">Feb 2019</div>
             <div className="experiment-header">
@@ -115,6 +128,8 @@ function Experiments() {
             <div><img className="experience-logo" src="./logos/heroku.png"></img></div>
           </div>  
       </div>
+      </a>
+      <a href="https://github.com/MathyouMB/Sead-Beta">
       <div className="experiment">
             <div className="experiment-date">Feb 2019</div>
             <div className="experiment-header">
@@ -127,6 +142,7 @@ function Experiments() {
             <div><img className="experience-logo" src="./logos/flask.png"></img></div>
           </div>  
       </div>
+      </a>
     </div>
   );
 }

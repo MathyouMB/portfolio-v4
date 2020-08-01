@@ -17,7 +17,7 @@ function Header() {
             <div className="header-title2">Fullstack Web & Software Developer</div>
             {/*<div className="header-paragraph">I'm a second year <span className="underline--magical">Carleton University</span> computer science student interested in web development, distributed systems, and cloud infrastructure. I'm currently working full-time at <span className="underline--magical">Kinaxis</span> and part-time at <span className="underline--magical">Explorator.</span></div>*/}
             <div className="header-buttons">
-                <div className="header-about-button">View My Work</div>
+                <a href="#work"><div className="header-about-button">View My Work</div></a>
                 <a href="https://drive.google.com/file/d/1fHfytC_4Y0l6_7dyLMvy4GW9ADgSm5Hc/view"><div className="header-resume-button">Download CV</div></a>
                 
             </div>

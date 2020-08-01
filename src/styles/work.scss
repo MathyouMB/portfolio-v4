@@ -18,7 +18,7 @@
     }
     p {
       font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    }
+    } 
 }
 
 .work-timeline{
@@ -100,6 +100,38 @@
 
     .work-container{
         flex-direction: column-reverse;
+    }
+
+    .work-timeline{
+        left: 0em;
+    }
+
+    .work-description{
+        left: 0em;
+    }
+    
+    .work-icon{
+        left: 0em;
+        display:none;
+    }
+
+    .work-body{
+        left: 0em;
+        padding: 1em 1em 0 1em;
+    }
+
+    .work-timeline:before {
+        display:none;
+    }
+
+    .company-logo{
+        margin-top:0.5em;
+        padding-bottom:1em;
+    }
+
+    .experience-description{
+        margin-right:0em !important;
+        width: 100% !important;
     }
 }
 

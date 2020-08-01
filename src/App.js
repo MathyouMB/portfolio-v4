@@ -21,20 +21,25 @@ function App() {
         <About/>
       </section>
       <section className="section-experience parallax bg2">
-        <h1>Experience</h1>
+        <h1 style={{"margin:":"2em"}}>Experience</h1>
         <Work/>
         
       </section>
 
       <section className="section-projects static">
-        <h1>Featured Projects</h1>
+        <h1 style={{"margin:":"2em"}}>Featured Projects</h1>
         <Projects/>
-        <h1>Archieve</h1>
+        <h1 style={{"margin:":"2em"}}>Archieve</h1>
         <Experiments/>
+        <br></br>
+        <br></br>
+        <h1 style={{"margin:":"2em"}}>Game Development</h1>
+        <br></br>
+        <br></br>
     </section>
-      {/*<section className="section-games">
-
-        <div className="game-container">
+      <section className="section-games">
+        <a href="https://youtu.be/pbElK69yv7U">
+        <div className="game-container game-title-t">
           <div className="game-left" style={{"backgroundImage":"url(/lastlightbg.png)"}}>
             <img className="game-title" src="/lastlight.png"></img>
           </div>
@@ -42,23 +47,28 @@ function App() {
 
           </div>
         </div>
-        <div className="game-container">
+        </a>
+        <a href="https://www.youtube.com/watch?v=truzXLu1cEU">
+        <div className="game-container game-gif">
           <div className="game-right" style={{"backgroundImage":"url(/gifs/hello.gif)"}}>
-          
           </div>
           <div className="game-left" style={{"backgroundImage":"url(/hellobg.png)"}}>
             <img className="game-title" src="/hello.png"></img>
           </div>
         </div>
-        <div className="game-container">
+        </a>
+        <a href="https://www.youtube.com/watch?v=pmS39u5ZDO8">
+        <div className="game-container game-title-t">
           <div className="game-left" style={{"backgroundImage":"url(/project22bg.png)"}}>
-          <img src="/project22.png" style={{"height":"300px", "margin":"auto"}}></img>
+          <img className="game-title" style={{"width":"50%"}} src="/project22.png"></img>
           </div>
           <div className="game-right" style={{"backgroundImage":"url(/gifs/project22.gif)"}}>
 
           </div>
         </div>
-        <div className="game-container">
+        </a>
+        <a href="https://www.youtube.com/watch?v=lM1UNi_MwDI">
+        <div className="game-container game-gif">
           <div className="game-right" style={{"backgroundImage":"url(/gifs/arcane.gif)"}}>
 
           </div>
@@ -67,9 +77,10 @@ function App() {
           </div>
          
         </div>
+        </a>
  
       </section>
-       */}
+       
       {/*<section className="section-experience parallax bg2">
         <Particle/>
         <Timeline/>

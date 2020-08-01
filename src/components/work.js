@@ -2,9 +2,9 @@ import React from 'react';
 
 function Work() { 
   return (  
-    <div className="work">
+    <div className="work" id="work">
         <ul className="work-timeline">
-            <li className="work-event">
+            {/*<li className="work-event">
             <label className="work-icon" style={{"backgroundColor":"#9CCC61"}}></label>
             <div className="work-container">
                 <div className="work-body">
@@ -33,8 +33,9 @@ function Work() {
                 </div>
                 <div><img className="company-logo company-logo-outer" src="https://theme.zdassets.com/theme_assets/170781/0e61729203f170c5142da557bfdd33d33d5605eb.png"></img></div>
             </div>
-            </li>
+            </li>*/}
             <li className="work-event">
+            <a href="https://www.kinaxis.com/en">
             <label className="work-icon" style={{"backgroundColor":"#DA152F"}}></label>
             <div className="work-container">
             <div className="work-body">
@@ -63,8 +64,10 @@ function Work() {
                 </div>
                 <div><img className="company-logo company-logo-outer" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Kinaxis-Logo.svg/1280px-Kinaxis-Logo.svg.png"></img></div>
             </div>
+            </a>
             </li>
             <li className="work-event">
+            <a href="https://explorator.ca/">
             <label className="work-icon" style={{"backgroundColor":"#FFBA00"}}></label>
             <div className="work-container">
             <div className="work-body">
@@ -94,8 +97,10 @@ function Work() {
                 </div>
                 <div><img className="company-logo company-logo-outer" src="/logos/ex.png"></img></div>
             </div>
+            </a>
             </li>
             <li className="work-event">
+            <a href="https://www.bankofcanada.ca/">
             <label className="work-icon"></label>
             <div className="work-container">
             <div className="work-body">
@@ -124,6 +129,7 @@ function Work() {
                 </div>
                 <div><img className="company-logo company-logo-outer" src="https://theindustryspread.com/wp-content/uploads/2018/06/Bank_of_Canada_logo.png"></img></div>
             </div>
+            </a>
             </li>
         </ul>
     </div>
