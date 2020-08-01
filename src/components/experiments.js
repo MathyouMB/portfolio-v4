@@ -90,7 +90,7 @@ function Experiments() {
             <div className="experiment-date">Oct 2019</div>
             <div className="experiment-header">
                 <div className="experiment-name">React Workshop</div>  
-                <div className="experiment-description">A beginner friendly React workshop with a focus on the new Hooks and Context APIs</div>
+                <div className="experiment-description">A beginner friendly React workshop with a focus on the new Hooks and Context APIs.</div>
             </div>
           <div className="experience-logos">
             <div><img className="experience-logo" src="./logos/react.png"></img></div>

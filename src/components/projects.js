@@ -73,7 +73,7 @@ const project3 = [
                 <div className="work-description">
                 <div className="experience-sections">
                 <div>
-                <div className="experience-description">Developed a Hybrid Multiplatform app for students to practice questions for Carleton's Discrete Math Course.</div>
+                <div className="experience-description">Developed a Hybrid Multiplatform app for students to practice questions for Carleton's Discrete Math Courses.</div>
                 <br></br>
                 <div className="experience-logos">
                   <div><img className="experience-logo" src="./logos/react.png"></img></div>
