@@ -13,9 +13,25 @@ function Experiments() {
             </div>
           <div className="experience-logos">
             <div><img className="experience-logo" src="./logos/react.png"></img></div>
-            <div><img className="experience-logo" src="./logos/graphql.png"></img></div>
             <div><img className="experience-logo" src="./logos/elixir.png"></img></div>
             <div><img className="experience-logo" src="./logos/phoenix.png"></img></div>
+            <div><img className="experience-logo" src="./logos/postgres.png"></img></div>
+            <div><img className="experience-logo" src="./logos/docker.png"></img></div>
+            <div><img className="experience-logo" src="./logos/heroku.png"></img></div>
+          </div>  
+     </div>
+     </a>
+     <a href="https://github.com/MathyouMB/Captur">
+     <div className="experiment">
+            <div className="experiment-date">May 2020</div>
+            <div className="experiment-header">
+                <div className="experiment-name">Captur</div>  
+                <div className="experiment-description">A fake platform for hosting challenge based challenges and capture the flag events. This project was made to further learn Elixir, Phoenix, and Absinthe.</div>
+            </div>
+          <div className="experience-logos">
+            <div><img className="experience-logo" src="./logos/elixir.png"></img></div>
+            <div><img className="experience-logo" src="./logos/phoenix.png"></img></div>
+            <div><img className="experience-logo" src="./logos/graphql.png"></img></div>
             <div><img className="experience-logo" src="./logos/postgres.png"></img></div>
             <div><img className="experience-logo" src="./logos/docker.png"></img></div>
           </div>  
