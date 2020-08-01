@@ -116,8 +116,9 @@ a:hover {
 
 .page-particles{
   width:100%;
-  min-height:100vh;
-  max-height:fit-content;
+  //min-height:100vh;
+  //max-height:fit-content;
+  height: 100vh;
   position:fixed; 
   z-index:0;
   //top:0em;
