@@ -23,10 +23,11 @@ const project3 = [
     <div className="work">
         <ul className="work-timeline">
             <li className="work-event">
-            <a href="https://github.com/MathyouMB/Bookstore">
+            
             <label className="work-icon"></label>
             <div className="work-container">
                 <div className="work-body">
+                    <a href="https://github.com/MathyouMB/Bookstore">
                     <p className="work-date">March 2020 - April 2020</p>
                     <h3>Bookstore E-Commerce Platform</h3>
                     <h4>Web Application</h4>
@@ -49,6 +50,7 @@ const project3 = [
                         <div><img className="company-logo-inner" src="/book.png" style={{"width":"17em","border":"2px solid rgb(165 168 181)", "marginBottom":"2em"}}></img></div>
                         </div>
                     </div>
+                    </a>
                 </div>
                 <div className="work-slides company-logo-outer" style={{"borderColor":"rgb(165 168 181)"}}>
                           <SimpleImageSlider
@@ -60,13 +62,14 @@ const project3 = [
                           />
                           </div>
             </div>
-            </a>
+            
             </li>
             <li className="work-event">
-            <a href="https://github.com/CarletonComputerScienceStudyCenter/StudyCenter-API">
+           
             <label className="work-icon"></label>
             <div className="work-container">
             <div className="work-body">
+                 <a href="https://github.com/CarletonComputerScienceStudyCenter/StudyCenter-API">
                 <p className="work-date">April 2020 - Present</p>
                 <h3>Computer Science Study Center</h3>
                 <h4>Online Learning Platform</h4>
@@ -83,12 +86,14 @@ const project3 = [
                   <div><img className="experience-logo" src="./logos/redis.png"></img></div>
                   <div><img className="experience-logo" src="./logos/docker.png"></img></div>
               </div>
+
               <br></br>
                         <br></br>
                         </div>
                         <div><img className="company-logo-inner" src="/study.png" style={{"width":"17em","border":"2px solid rgb(165 168 181)", "marginBottom":"2em"}}></img></div>
                         </div>
                     </div>
+                    </a>
                 </div>
                 <div className="work-slides company-logo-outer" style={{"borderColor":"rgb(165 168 181)"}}>
                 <SimpleImageSlider
@@ -100,7 +105,7 @@ const project3 = [
                 />
                 </div>
             </div>
-            </a>
+ 
             </li> 
         </ul>
     </div>

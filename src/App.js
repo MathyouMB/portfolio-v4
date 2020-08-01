@@ -92,7 +92,7 @@ function App() {
         <h1>Projects</h1>
       </section>
   */}
-      <section className="section-footer static">
+      <section className="section-footer static-footer">
         <Footer/>
       </section>
   </main>
