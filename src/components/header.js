@@ -9,8 +9,8 @@ function Header() {
   const gitIcon = <FontAwesomeIcon icon={faGithub} />
   const linkedIcon = <FontAwesomeIcon icon={faLinkedin} />
   return (  
-    <div className="header">
-        <div className="header-text">
+    <div className="header animate__animated animate__fadeIn">
+        <div className="header-text animate__animated animate__fadeInLeft">
              
             <div className="header-title">MATTHEW</div>
             <div className="header-title3">MACRAE-BOVELL</div>

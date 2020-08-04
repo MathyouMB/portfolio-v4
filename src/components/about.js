@@ -12,7 +12,7 @@ function About() {
   return (  
     <div className="about">
        <div>
-           <img className="about-avatar" src="https://avatars0.githubusercontent.com/u/43223682?s=460&u=74b3055be2f8349d6640ca771dde880802e2bf35&v=4"></img>
+           <img className="about-avatar" src="/profile.jpg"></img>
        </div>
        <div className="about-text">
            <div className="about-header">
