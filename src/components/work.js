@@ -58,11 +58,11 @@ function Work() {
                         <br></br>
                         <br></br>
                         </div>
-                        <div><img className="company-logo company-logo-inner" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Kinaxis-Logo.svg/1280px-Kinaxis-Logo.svg.png"></img></div>
+                        <div><img className="company-logo company-logo-inner" src="/kinaxis.png"></img></div>
                         </div>
                     </div>
                 </div>
-                <div><img className="company-logo company-logo-outer" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Kinaxis-Logo.svg/1280px-Kinaxis-Logo.svg.png"></img></div>
+                <div><img className="company-logo company-logo-outer" src="/kinaxis.png"></img></div>
             </div>
             </a>
             </li>
@@ -123,11 +123,11 @@ function Work() {
                             <br></br>
                         <br></br>
                         </div>
-                        <div><img className="company-logo company-logo-inner" src="https://theindustryspread.com/wp-content/uploads/2018/06/Bank_of_Canada_logo.png"></img></div>
+                        <div><img className="company-logo company-logo-inner" src="/bank.png"></img></div>
                         </div>
                     </div>
                 </div>
-                <div><img className="company-logo company-logo-outer" src="https://theindustryspread.com/wp-content/uploads/2018/06/Bank_of_Canada_logo.png"></img></div>
+                <div><img className="company-logo company-logo-outer" src="/bank.png"></img></div>
             </div>
             </a>
             </li>
