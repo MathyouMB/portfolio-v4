@@ -2,7 +2,7 @@ import React from 'react';
 
 function Orbit() { 
   return (  
-    <div className="orbit">
+    <div className="orbit animate__animated animate__fadeInRight">
   
     <ul className="orbit-wrap">
       

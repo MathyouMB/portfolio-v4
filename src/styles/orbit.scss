@@ -361,4 +361,15 @@ $icons : (
 }
 
 
+@media only screen and (max-width: 500px) {
+
+  .orbit-wrap{
+      font-size:1em;
+  }
+
+  .orbit{
+    margin-right: 8vw;
+  }
+}
+
 

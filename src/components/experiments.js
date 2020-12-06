@@ -32,6 +32,7 @@ function Experiments() {
             <div><img className="experience-logo" src="./logos/elixir.png"></img></div>
             <div><img className="experience-logo" src="./logos/phoenix.png"></img></div>
             <div><img className="experience-logo" src="./logos/graphql.png"></img></div>
+            <div><img className="experience-logo" src="./logos/absinthe.png"></img></div>
             <div><img className="experience-logo" src="./logos/postgres.png"></img></div>
             <div><img className="experience-logo" src="./logos/docker.png"></img></div>
           </div>  
@@ -156,6 +157,22 @@ function Experiments() {
             <div><img className="experience-logo" src="./logos/material.png"></img></div>
             <div><img className="experience-logo" src="./logos/python.png"></img></div>
             <div><img className="experience-logo" src="./logos/flask.png"></img></div>
+          </div>  
+      </div>
+      </a>
+      <a href="https://www.youtube.com/watch?v=NStMG3dYcRE">
+      <div className="experiment">
+            <div className="experiment-date">Mar 2018</div>
+            <div className="experiment-header">
+                <div className="experiment-name">Recreo Mortem</div>  
+                <div className="experiment-description">My custom Realm of the Mad God private server built with with a variety of new content.</div>
+            </div>
+          <div className="experience-logos">
+            <div><img className="experience-logo" src="./logos/c.png"></img></div>
+            <div><img className="experience-logo" src="./logos/net-skill.png"></img></div>
+            <div><img className="experience-logo" src="./logos/flash.png"></img></div>
+            <div><img className="experience-logo" src="./logos/redis.png"></img></div>
+            <div><img className="experience-logo" src="./logos/mysql.png"></img></div>
           </div>  
       </div>
       </a>

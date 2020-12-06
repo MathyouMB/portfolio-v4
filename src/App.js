@@ -29,7 +29,7 @@ function App() {
       <section className="section-projects static">
         <h1 style={{"margin:":"2em"}}>Featured Projects</h1>
         <Projects/>
-        <h1 style={{"margin:":"2em"}}>Archieve</h1>
+        <h1 style={{"margin:":"2em"}}>Archive</h1>
         <Experiments/>
         <br></br>
         <br></br>
