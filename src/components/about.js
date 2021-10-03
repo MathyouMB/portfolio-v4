@@ -12,7 +12,7 @@ function About() {
   return (  
     <div className="about">
        <div>
-           <img className="about-avatar" src="/profile.jpg"></img>
+           <img className="about-avatar" src="https://avatars.githubusercontent.com/u/43223682?v=4"></img>
        </div>
        <div className="about-text">
            <div className="about-header">
@@ -23,7 +23,7 @@ function About() {
            <div className="about-description">
                <div>I'm a <b>Carleton University</b> computer science student interested in web development, distributed systems, and cloud infrastructure. </div>
                <br></br>
-               <div>I'm currently searching for <b>Summer 2021</b> {/*<span className="hvr-float" role="img">❄️</span>*/} and <b>Fall 2021</b> {/*<span className="hvr-float" role="img">🌻</span>*/} internship opportunities.</div>
+               <div>I'm currently searching for <b>Winter 2022</b> {/*<span className="hvr-float" role="img">❄️</span>*/} and <b>Summer 2022</b> {/*<span className="hvr-float" role="img">🌻</span>*/} internship opportunities.</div>
            </div>
            <div className="about-desktop">
            <div className="about-tags">

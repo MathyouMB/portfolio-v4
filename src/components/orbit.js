@@ -12,6 +12,8 @@ function Orbit() {
 
       <li>
         <ul className="ring-0">
+        <li><div className="orbit-icon m-icon datadog-icon"></div></li>
+          <li><div className="orbit-icon m-icon kafka-icon"></div></li>
           <li><div className="orbit-icon m-icon docker-icon"></div></li>
           <li><div className="orbit-icon m-icon mongo-icon"></div></li>
           <li><div className="orbit-icon m-icon azure-icon"></div></li>
@@ -31,16 +33,15 @@ function Orbit() {
 
       <li>
         <ul className="ring-1">
-          <li><div className="orbit-icon m-icon flask-icon"></div></li>
+          <li><div className="orbit-icon m-icon fastapi-icon"></div></li>
           <li><div className="orbit-icon m-icon react-icon"></div></li>
           <li><div className="orbit-icon m-icon rails-icon"></div></li>
           <li><div className="orbit-icon m-icon phoenix-icon"></div></li>
           <li><div className="orbit-icon m-icon graphql-icon"></div></li>
-          <li><div className="orbit-icon m-icon webpack-icon"></div></li>
-          <li><div className="orbit-icon m-icon aspnet-icon"></div></li>
+          <li><div className="orbit-icon m-icon nextjs-icon"></div></li>
+          <li><div className="orbit-icon m-icon django-icon"></div></li>
           <li><div className="orbit-icon m-icon nodejs-icon"></div></li>
-          <li><div className="orbit-icon m-icon deno-icon"></div></li>
-          <li><div className="orbit-icon m-icon net-icon"></div></li>
+          <li><div className="orbit-icon m-icon svelte-icon"></div></li>
           <li><div className="orbit-icon m-icon redux-icon"></div></li>
           {/*<li><i className="orbit-icon fa fa-podcast"></i></li>
           <li><i className="orbit-icon fa fa-css3"></i></li>

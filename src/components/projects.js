@@ -24,86 +24,102 @@ const project3 = [
         <ul className="work-timeline">
             <li className="work-event">
             
-            <label className="work-icon"></label>
+            <label className="work-icon" style={{"backgroundColor":"rgb(253 170 76)"}}></label>
             <div className="work-container">
                 <div className="work-body">
-                    <a href="https://github.com/MathyouMB/Bookstore">
-                    <p className="work-date">March 2020 - April 2020</p>
-                    <h3>Bookstore E-Commerce Platform</h3>
+                    <a href="https://discretemath.ca/">
+                    <p className="work-date" style={{"backgroundColor":"rgb(253 170 76)"}}>March 2020 - Present</p>
+                    <h3>DiscreteMath.ca</h3>
                     <h4>Web Application</h4>
                     <div className="work-description">
                         <div className="experience-sections">
                         <div>
-                        <div className="experience-description">A Dockerized and Kubernetes configured Platform for selling books. This is my final project for COMP3005: Database Management Systems.</div>
+                        <div className="experience-description">DiscreteMath.ca is an interactive platform built specifically for content from Carleton's discrete mathematics courses.</div>
                         <br></br>
                         <div className="experience-logos">
-                          <div><img className="experience-logo" src="./logos/javascript.png"></img></div>
-                          <div><img className="experience-logo" src="./logos/react.png"></img></div>
-                          <div><img className="experience-logo" src="./logos/golang.png"></img></div>
-                          <div><img className="experience-logo" src="./logos/postgres.png"></img></div>
-                          <div><img className="experience-logo" src="./logos/docker.png"></img></div>
-                          <div><img className="experience-logo" src="./logos/kubernetes.png"></img></div>
+                          <div><img className="experience-logo" src="./logos/svelte.png"></img></div>
+                          <div><img className="experience-logo" src="./logos/rails.png"></img></div>
+                          <div><img className="experience-logo" src="./logos/fastapi.png"></img></div>
+                          <div><img className="experience-logo" src="./logos/graphql.png"></img></div>
+                          <div><img className="experience-logo" src="./logos/postgres.png"></img></div> 
                       </div>
                         <br></br>
                         <br></br>
                         </div>
-                        <div><img className="company-logo-inner" src="/book.png" style={{"width":"17em","border":"2px solid rgb(165 168 181)", "marginBottom":"2em"}}></img></div>
+                        <div><img className="company-logo company-logo-inner" src="https://github.com/CarletonComputerScienceSociety/discretemath.ca/raw/master/docs/logo.png"></img></div>
                         </div>
                     </div>
                     </a>
                 </div>
-                <div className="work-slides company-logo-outer" style={{"borderColor":"rgb(165 168 181)"}}>
-                          <SimpleImageSlider
-                              
-                              width={500}
-                              height={300}
-                              images={project1}
-                              showBullets={false}
-                          />
-                          </div>
+                <div><img className="company-logo company-logo-outer" src="https://github.com/CarletonComputerScienceSociety/discretemath.ca/raw/master/docs/logo.png"></img></div>
             </div>
             
             </li>
             <li className="work-event">
            
-            <label className="work-icon"></label>
+            <label className="work-icon" style={{"backgroundColor":"rgb(211 35 43)"}}></label>
             <div className="work-container">
             <div className="work-body">
-                 <a href="https://github.com/CarletonComputerScienceStudyCenter/StudyCenter-API">
-                <p className="work-date">April 2020 - Present</p>
-                <h3>Computer Science Study Center</h3>
-                <h4>Online Learning Platform</h4>
+                 <a href="https://merged.carletoncomputerscience.ca/">
+                <p className="work-date" style={{"backgroundColor":"rgb(211 35 43)"}}>May 2021 - Present</p>
+                <h3>Merged</h3>
+                <h4>Web Application</h4>
                 <div className="work-description">
                 <div className="experience-sections">
                 <div>
-                <div className="experience-description">Developed a Hybrid Multiplatform app for students to practice questions for Carleton's Discrete Math Courses.</div>
+                <div className="experience-description">Merged is a community project that aims to provide a platform where students can easily view all activity and events from all Carleton tech student groups.</div>
                 <br></br>
                 <div className="experience-logos">
                   <div><img className="experience-logo" src="./logos/react.png"></img></div>
-                  <div><img className="experience-logo" src="./logos/rails.png"></img></div>
-                  <div><img className="experience-logo" src="./logos/graphql.png"></img></div>
+                  <div><img className="experience-logo" src="./logos/nextjs.png"></img></div>
+                  <div><img className="experience-logo" src="./logos/django.png"></img></div>
                   <div><img className="experience-logo" src="./logos/postgres.png"></img></div>
-                  <div><img className="experience-logo" src="./logos/redis.png"></img></div>
                   <div><img className="experience-logo" src="./logos/docker.png"></img></div>
               </div>
 
               <br></br>
                         <br></br>
                         </div>
-                        <div><img className="company-logo-inner" src="/study.png" style={{"width":"17em","border":"2px solid rgb(165 168 181)", "marginBottom":"2em"}}></img></div>
+                        <div><img className="company-logo company-logo-inner" src="https://github.com/CarletonComputerScienceSociety/merged/raw/master/docs/logo.png"></img></div>
                         </div>
                     </div>
                     </a>
                 </div>
-                <div className="work-slides company-logo-outer" style={{"borderColor":"rgb(165 168 181)"}}>
-                <SimpleImageSlider
-                    
-                    width={500}
-                    height={300}
-                    images={project2}
-                    showBullets={false}
-                />
+                <div><img className="company-logo company-logo-outer" src="https://github.com/CarletonComputerScienceSociety/merged/raw/master/docs/logo.png"></img></div>
+            </div>
+ 
+            </li> 
+            <li className="work-event">
+           
+            <label className="work-icon" style={{"backgroundColor":"rgb(14 53 251)"}}></label>
+            <div className="work-container">
+            <div className="work-body">
+                 <a href="https://github.com/MathyouMB/scored">
+                <p className="work-date" style={{"backgroundColor":"rgb(14 53 251)"}}>March 2021 - April 2021</p>
+                <h3>Scored</h3>
+                <h4>Web Application</h4>
+                <div className="work-description">
+                <div className="experience-sections">
+                <div>
+                <div className="experience-description">Scored is an Elixir based scrum planning poker. Built to build a deeper understanding of OTP, concurrency, and the Elixir ecosystem.</div>
+                <br></br>
+                <div className="experience-logos">
+                  <div><img className="experience-logo" src="./logos/elixir.png"></img></div>
+                  <div><img className="experience-logo" src="./logos/html.png"></img></div>
+                  <div><img className="experience-logo" src="./logos/css.png"></img></div>
+                  <div><img className="experience-logo" src="./logos/javascript.png"></img></div>
+                  <div><img className="experience-logo" src="./logos/heroku.png"></img></div>
+              </div>
+
+              <br></br>
+                        <br></br>
+                        </div>
+                        <div><img className="company-logo company-logo-inner" src="/scored.png"></img></div>
+                        </div>
+                    </div>
+                    </a>
                 </div>
+                <div><img className="company-logo company-logo-outer" src="/scored.png"></img></div>
             </div>
  
             </li> 

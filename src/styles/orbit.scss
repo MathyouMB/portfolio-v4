@@ -1,5 +1,5 @@
 $orbitItemSize: 1.6em;
-$map: (ring-0: 11, ring-1: 12, ring-2: 6.5, ring-3: 8);
+$map: (ring-0: 13, ring-1: 11, ring-2: 6, ring-3: 8);
 $lastRing: 3;
 
 * {
@@ -246,6 +246,27 @@ $icons : (
     background-image: url('/logos/aspnet-skill.png');
     background-color: white;
 }
+
+.kafka-icon{
+  background-image: url('/logos/kafka.png');
+  background-color: white;
+}
+
+.fastapi-icon{
+  background-image: url('/logos/fastapi-skill.png');
+  background-color: white;
+}
+
+.datadog-icon{
+  background-image: url('/logos/datadog-skill.png');
+  background-color: white;
+}
+
+.nextjs-icon{
+  background-image: url('/logos/nextjs-skill.png');
+  background-color: white;
+}
+
 .cpp-icon{
     background-image: url('/logos/cpp-skill.png');
     background-color: rgb(225, 30, 150);
@@ -328,6 +349,16 @@ $icons : (
 .deno-icon{
     background-image: url('/logos/deno-skill.png');
     background-color: white;
+}
+
+.svelte-icon{
+  background-image: url('/logos/svelte-skill.png');
+  background-color: white;
+}
+
+.django-icon{
+  background-image: url('/logos/django-skill.png');
+  background-color: white;
 }
 
 .postgres-icon{
